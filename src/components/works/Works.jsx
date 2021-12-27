@@ -20,48 +20,50 @@ export default function Works() {
       img: "https://youtu.be/GpRaH7vO1tE",
       demoURL: "https://youtu.be/GpRaH7vO1tE",
     },
-    // {
-    //   id: "2",
-    //   icon: "./assets/globe.png",
-    //   title: "CDOT Marketplace",
-    //   desc:
-    //     "Business-to-Business E-Commerce Application in Flutter and Firebase",
-    //   img:
-    //     "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
-    // },
-    // {
-    //   id: "3",
-    //   icon: "./assets/globe.png",
-    //   title: "College Notice Board Website",
-    //   desc:
-    //     "PHP Project for university administrators, professors and student origization presidents to post memos, circulars and event notifications",
-    //   img:
-    //     "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
-    // },
-    // {
-    //   id: "4",
-    //   icon: "./assets/globe.png",
-    //   title: "Deep Learning Based Music Player",
-    //   desc:
-    //     "Python applicaion that analyses the user's facial experssion with OpenCV, identifies hand gestures for pause, play, skip etc. in MediaPipe and plays relevant music on Youtube",
-    //   img:
-    //     "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
-    // },
-    // {
-    //   id: "5",
-    //   icon: "./assets/globe.png",
-    //   title: "Analysing Highway Traffic",
-    //   desc:
-    //     "Python application that detects, tacks and counts the number of cars moving up and down a two lane highway.",
-    //   img:
-    //     "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
-    // },
   ];
+  // {
+  //   id: "2",
+  //   icon: "./assets/globe.png",
+  //   title: "CDOT Marketplace",
+  //   desc:
+  //     "Business-to-Business E-Commerce Application in Flutter and Firebase",
+  //   img:
+  //     "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+  // },
+  // {
+  //   id: "3",
+  //   icon: "./assets/globe.png",
+  //   title: "College Notice Board Website",
+  //   desc:
+  //     "PHP Project for university administrators, professors and student origization presidents to post memos, circulars and event notifications",
+  //   img:
+  //     "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+  // },
+  // {
+  //   id: "4",
+  //   icon: "./assets/globe.png",
+  //   title: "Deep Learning Based Music Player",
+  //   desc:
+  //     "Python applicaion that analyses the user's facial experssion with OpenCV, identifies hand gestures for pause, play, skip etc. in MediaPipe and plays relevant music on Youtube",
+  //   img:
+  //     "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+  // },
+  // {
+  //   id: "5",
+  //   icon: "./assets/globe.png",
+  //   title: "Analysing Highway Traffic",
+  //   desc:
+  //     "Python application that detects, tacks and counts the number of cars moving up and down a two lane highway.",
+  //   img:
+  //     "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+  // },
 
   const handleClick = (way) => {
     way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
-      : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 0)
+      : setCurrentSlide(
+          currentSlide < data.length - 1 ? currentSlide + 1 : data.length - 1
+        );
   };
 
   return (
