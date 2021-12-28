@@ -9,8 +9,17 @@ export default function Intro() {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
-      backSpeed:60,
-      strings: ["React.js", "React Native", "JavaScript", "Sass", "Tailwind CSS","Django", "Python", "Node.js", "Firebase"],
+      backSpeed: 60,
+      strings: [
+        "React.js",
+        "React Native",
+        "JavaScript",
+        "Python",
+        "Google Firebase",
+        "Sass",
+        "Tailwind CSS",
+        "Python",
+      ],
     });
   }, []);
 
@@ -23,14 +32,15 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h3>I'm a Comp Sci Grad Student at Indian University Bloomington <img className = "alma-mater" src="assets/alma-mater.png"></img></h3>
+          <h3>
+            I'm a Comp Sci Grad Student at Indian University Bloomington{" "}
+            <img className="alma-mater" src="assets/alma-mater.png"></img>
+          </h3>
           <br />
           <h1>
-            Tech that I've used  <span ref={textRef}></span>
+            Tech that I've used <span ref={textRef}></span>
           </h1>
-          
         </div>
-        
       </div>
     </div>
   );
