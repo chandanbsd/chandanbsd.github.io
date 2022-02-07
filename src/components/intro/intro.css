@@ -40,6 +40,8 @@
 .i-title-wrapper {
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @keyframes move {
@@ -80,6 +82,9 @@
   position: absolute;
 }
 
+.i-desc {
+  margin-top: 10px;
+}
 /* img {
   width: 85%;
 } */
@@ -92,4 +97,22 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .i {
+    flex-direction: column;
+  }
+
+  .i-left-wrapper {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .i-desc {
+    display: none;
+  }
 }

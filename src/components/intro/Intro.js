@@ -1,5 +1,6 @@
 import "./intro.css";
 import Me from "../../img/me.png";
+import { SocialIcon } from "react-social-icons";
 
 const Intro = () => {
   return (
@@ -17,7 +18,38 @@ const Intro = () => {
               <div className="i-title-item">Full Stack Web Developer</div>
             </div>
           </div>
-          <p className="i-desc"></p>
+          <p className="i-desc">
+            <ul>
+              <li>
+                <SocialIcon
+                  url="https://github.com/chandanbsd"
+                  target="_blank"
+                />{" "}
+                @chandanbsd
+              </li>
+              <li>
+                <SocialIcon
+                  url="https://linkedin.com/in/chandanbsd"
+                  target="_blank"
+                />{" "}
+                @chandanbsd
+              </li>
+              <li>
+                <SocialIcon
+                  url="https://twitter.com/chandanbsd"
+                  target="_blank"
+                />
+                @chandanbsd
+              </li>
+              <li>
+                <SocialIcon
+                  url="https://facebook.com/bsdchandan"
+                  target="_blank"
+                />{" "}
+                @bsdchandan
+              </li>
+            </ul>
+          </p>
         </div>
         <svg
           width="75"
