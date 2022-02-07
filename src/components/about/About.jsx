@@ -13,7 +13,7 @@ const About = () => {
       </div>
       <div className="a-right">
         <h1 className="a-title">Technical Skills</h1>
-        <p className="a-sub">I'm </p>
+        {/* <p className="a-sub">I'm </p> */}
         <p className="a-desc">
           <b>Programming Languages:</b> JavaScript, Python, Java, PHP, C#, C++,
           C <br />

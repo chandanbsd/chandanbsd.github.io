@@ -76,12 +76,13 @@
 @media screen and (max-width: 480px) {
   .a {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
   }
 
   .a-left {
-    width: 100%;
+    /* width: 100%; */
+    display: none;
   }
 
   .a-card {
@@ -90,7 +91,8 @@
 
   .a-card.bg,
   .a-university {
-    display: none;
+    /* display: none; */
+    margin-bottom: 50px;
   }
 
   .a-right {

@@ -113,6 +113,10 @@
   }
 
   .i-desc {
-    display: none;
+    /* display: none; */
   }
+}
+
+ul {
+  list-style-type: none;
 }
