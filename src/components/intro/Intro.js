@@ -17,13 +17,7 @@ const Intro = () => {
               <div className="i-title-item">Full Stack Web Developer</div>
             </div>
           </div>
-          <p className="i-desc">
-            I'm pursuing Master of Science in Computer Science student at
-            Indiana University Bloomington. Developing web and mobile
-            applications are the best ways I'm improving as a developer.
-            Currently I'm getting better at the Microsoft Azure, MERN stack,
-            React Native and Cypress end-to-end testing.
-          </p>
+          <p className="i-desc"></p>
         </div>
         <svg
           width="75"
