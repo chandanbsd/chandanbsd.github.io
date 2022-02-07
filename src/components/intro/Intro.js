@@ -1,4 +1,5 @@
 import "./intro.css";
+import Me from "../../img/me.png";
 
 const Intro = () => {
   return (
@@ -16,10 +17,20 @@ const Intro = () => {
               <div className="i-title-item">Full Stack Web Developer</div>
             </div>
           </div>
+          <div className="i-desc">
+            I'm pursuing Master of Science in Computer Science student at
+            Indiana University Bloomington. Developing web and mobile
+            applications are the best ways I'm improving as a developer.
+            Currently I'm getting better at the Microsoft Azure, MERN stack,
+            React Native and Cypress end-to-end testing.
+          </div>
         </div>
       </div>
 
-      <div className="i-right">right</div>
+      <div className="i-right">
+        <div className="i-bg"></div>
+        <img src={Me} alt="Profile Picture" className="i-img" />
+      </div>
     </div>
   );
 };
