@@ -22,7 +22,8 @@ const About = () => {
           <br />
           <b>Mobile Application Development Frameworks:</b> React Native,
           Flutter <br />
-          <b>Database:</b> MongoDB, MySQL Cloud: Google Firebase <br />
+          <b>Database:</b> MongoDB, MySQL <br />
+          <b>Cloud:</b> Google Firebase <br />
           <b>End to End Automated Testing Framework:</b> Cypress <br />
           <b>ML, Computer Vision, and Data Mining Frameworks:</b> OpenCV,
           Mediapipe, Keras, Pandas, NumPy, Matplotlib, sci-kit-learn <br />
