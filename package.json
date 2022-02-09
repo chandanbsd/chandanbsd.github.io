@@ -28,8 +28,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploynetlify": "rm -rf netlifybuild && cp -r build netlifybuild && netlify deploy --prod",
-    "deploygh": "rm -rf ghbuild && cp -r build ghbuild  && cp -r specialfolder ghbuild/static && gh-pages -d ghbuild"
+    "deploynetlify": "rm -rf netlifybuild && cp -R build netlifybuild && netlify deploy --prod",
+    "deploygh": "rm -rf ghbuild && cp -R build ghbuild && cp -R specialfolder/ ghbuild && gh-pages -d ghbuild"
   },
   "eslintConfig": {
     "extends": [
