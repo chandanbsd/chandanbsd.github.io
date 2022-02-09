@@ -7,4 +7,5 @@ build
 specialfolder
 ghbuild
 netlifybuild
-CNAME
+
+.DS_Store/
