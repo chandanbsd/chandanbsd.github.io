@@ -3,3 +3,8 @@ node_modules
 build
 # Local Netlify folder
 .netlify
+
+specialfolder
+ghbuild
+netlifybuild
+CNAME
