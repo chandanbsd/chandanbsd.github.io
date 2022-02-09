@@ -99,7 +99,11 @@
   right: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
+  .i-name {
+    font-size: 40px;
+  }
+
   .i {
     flex-direction: column;
   }
@@ -114,6 +118,7 @@
 
   .i-desc {
     /* display: none; */
+    align-items: left;
   }
 }
 
