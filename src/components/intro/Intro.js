@@ -1,6 +1,7 @@
 import "./intro.css";
 import Me from "../../img/me.png";
 import { SocialIcon } from "react-social-icons";
+import IULogo from "../../img/iulogo.svg";
 
 const Intro = () => {
   return (
@@ -26,6 +27,18 @@ const Intro = () => {
               <div className="i-title-item">Front End Dev</div>
               <div className="i-title-item">Mobile Dev</div>
               <div className="i-title-item">Full Stack Dev</div>
+            </div>
+          </div>
+          <div className="a-university">
+            <img src={IULogo} alt="" className="a-university-img" />
+            <div className="a-university-texts">
+              <h4 className="a-university-title">
+                Indiana University Bloomington Class of 2023 <br />
+                (M. S. in Computer Science)
+              </h4>
+              <p className="a-university-desc">
+                Luddy School of Informatics, Computing, and Engineering
+              </p>
             </div>
           </div>
         </div>
