@@ -1,11 +1,1 @@
-.vscode
-node_modules
-build
-# Local Netlify folder
-.netlify
-
-# specialfolder
-ghbuild
-netlifybuild
-
-.DS_Store/.DS_Store
+/node_modules
