@@ -4,7 +4,7 @@ build
 # Local Netlify folder
 .netlify
 
-specialfolder
+# specialfolder
 ghbuild
 netlifybuild
 
