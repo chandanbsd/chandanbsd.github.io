@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.3518ffee.chunk.css",
-    "main.js": "/static/js/main.fcad5ab4.chunk.js",
-    "main.js.map": "/static/js/main.fcad5ab4.chunk.js.map",
+    "main.css": "/static/css/main.a0712a88.chunk.css",
+    "main.js": "/static/js/main.b33a62c9.chunk.js",
+    "main.js.map": "/static/js/main.b33a62c9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.26096b02.js",
     "runtime-main.js.map": "/static/js/runtime-main.26096b02.js.map",
     "static/js/2.f5eb13ea.chunk.js": "/static/js/2.f5eb13ea.chunk.js",
     "static/js/2.f5eb13ea.chunk.js.map": "/static/js/2.f5eb13ea.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3518ffee.chunk.css.map": "/static/css/main.3518ffee.chunk.css.map",
+    "static/css/main.a0712a88.chunk.css.map": "/static/css/main.a0712a88.chunk.css.map",
     "static/js/2.f5eb13ea.chunk.js.LICENSE.txt": "/static/js/2.f5eb13ea.chunk.js.LICENSE.txt",
     "static/media/azure.38ae96ef.svg": "/static/media/azure.38ae96ef.svg",
     "static/media/flutter.6b44a29d.svg": "/static/media/flutter.6b44a29d.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.26096b02.js",
     "static/js/2.f5eb13ea.chunk.js",
-    "static/css/main.3518ffee.chunk.css",
-    "static/js/main.fcad5ab4.chunk.js"
+    "static/css/main.a0712a88.chunk.css",
+    "static/js/main.b33a62c9.chunk.js"
   ]
 }
