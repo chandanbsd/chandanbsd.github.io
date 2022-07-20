@@ -19,7 +19,7 @@
 
 .a-card.bg {
   position: absolute;
-  top: 50px;
+  top: 200px;
   left: 50px;
   background-color: #333;
 }
@@ -74,6 +74,28 @@
   margin-bottom: 10px;
 }
 
+.skill-sec {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  padding-left: 30px;
+
+  padding-right: 30px;
+}
+
+.skill-img-con {
+  display: inline-block;
+  height: 200px !important;
+}
+
+.skill-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+
 @media screen and (max-width: 1024px) {
   .a {
     flex-direction: column;
@@ -82,18 +104,21 @@
   }
 
   .a-left {
-    /* width: 100%; */
-    display: none;
+    text-align: center;
+    width: 100%;
   }
 
   .a-card {
-    height: 30vh;
+    height: 40vh;
+    width: 80vw;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .a-card.bg,
   .a-university {
-    /* display: none; */
-    margin-bottom: 50px;
   }
 
   .a-right {
