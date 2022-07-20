@@ -8,10 +8,6 @@ const projectList = () => {
     <div className="pl">
       <div className="pl-texts">
         <h1 className="pl-title">Featured Projects</h1>
-        <p className="pl-desc">
-          More projects hosted on my github:{" "}
-          <SocialIcon url="https://github.com/chandanbsd" /> @chandanbsd
-        </p>
       </div>
       <div className="pl-list">
         {projects.map((item) => (
