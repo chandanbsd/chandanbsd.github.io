@@ -22,6 +22,9 @@
   align-items: center;
   justify-content: center;
 }
+.resume-link:hover {
+  cursor: pointer;
+}
 
 .i-right {
   flex: 1;

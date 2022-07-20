@@ -25,7 +25,17 @@ const Intro = () => {
             target="_blank"
           />{" "}
         </div>
-        <div className="resume-link">
+
+        <div
+          className="resume-link"
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/15qs_hLs00XWcHVxMLa6FUv7W241HeHCw/view?usp=sharing",
+              "_blank",
+              "noopener,noreferrer"
+            )
+          }
+        >
           Download Resume
           <FontAwesomeIcon icon={faDownload} />
         </div>

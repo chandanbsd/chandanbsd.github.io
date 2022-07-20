@@ -128,4 +128,8 @@
   .a-desc {
     font-weight: 10;
   }
+
+  #skill-sec {
+    display: none;
+  }
 }
