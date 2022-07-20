@@ -8,7 +8,7 @@ import React from "react";
 
 const Skill = () => {
   return (
-    <div className="pl">
+    <div className="pl" id="skill-sec">
       <div className="pl-texts">
         <h1 className="pl-title">Featured Skills</h1>
       </div>
