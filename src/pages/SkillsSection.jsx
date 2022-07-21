@@ -1,12 +1,12 @@
-import "./skill.css";
-import react from "../../img/react-icon.svg";
-import js from "../../img/javascript.svg";
-import azure from "../../img/azure.svg";
-import node from "../../img/nodejs.svg";
-import flutter from "../../img/flutter.svg";
+import "../styles/skills-section.css";
+import react from "../img/react-icon.svg";
+import js from "../img/javascript.svg";
+import azure from "../img/azure.svg";
+import node from "../img/nodejs.svg";
+import flutter from "../img/flutter.svg";
 import React from "react";
 
-const Skill = () => {
+const SkillsSection = () => {
   return (
     <div className="pl" id="skill-sec">
       <div className="pl-texts">
@@ -52,4 +52,4 @@ const Skill = () => {
   );
 };
 
-export default Skill;
+export default SkillsSection;

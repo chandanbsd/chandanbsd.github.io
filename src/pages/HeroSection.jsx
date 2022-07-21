@@ -1,13 +1,13 @@
-import "./intro.css";
-import Me2 from "../../img/me2.jpg";
+import "../styles/hero-section.css";
+import Me2 from "../img/me2.jpg";
 import { SocialIcon } from "react-social-icons";
-import IULogo from "../../img/iulogo.svg";
+import IULogo from "../img/iulogo.svg";
 import React from "react";
-import ReactIcon from "../../img/iulogo.svg";
+import ReactIcon from "../img/iulogo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
-const Intro = () => {
+const HeroSection = () => {
   return (
     <React.Fragment>
       <div className="i-social-links">
@@ -70,4 +70,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default HeroSection;
