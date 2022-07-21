@@ -1,12 +1,12 @@
-import Intro from "./components/intro/Intro";
-import Skill from "./components/about/Skills";
-import ProjectList from "./components/projectList/projectList";
+import HeroSection from "./pages/HeroSection";
+import SkillsSection from "./pages/SkillsSection";
+import ProjectsSection from "./pages/ProjectsSection";
 const App = () => {
   return (
     <div>
-      <Intro />
-      <Skill />
-      <ProjectList />
+      <HeroSection />
+      <ProjectsSection />
+      <SkillsSection />
     </div>
   );
 };
