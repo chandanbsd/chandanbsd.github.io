@@ -1,72 +1,65 @@
 import "../styles/hero-section.css";
-import Me2 from "../img/me2.jpg";
-import { SocialIcon } from "react-social-icons";
+import ProfilePicture from "../img/me2.jpg";
 import IULogo from "../img/iulogo.svg";
 import React from "react";
-import ReactIcon from "../img/iulogo.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import Snowfall from "react-snowfall";
+import reactIcon from "../img/react-icon.svg";
+import js from "../img/javascript.svg";
+import azure from "../img/azure.svg";
 
 const HeroSection = () => {
   return (
-    <React.Fragment>
-      <div className="i-social-links">
-        <div>
-          {" "}
-          <SocialIcon
-            url="https://linkedin.com/in/chandanbsd"
-            target="_blank"
-          />{" "}
-        </div>
-        <div>
-          {" "}
-          <SocialIcon
-            url="https://github.com/chandanbsd"
-            target="_blank"
-          />{" "}
-        </div>
+    <div>
+      <div className="hero-sec">
+        <div className="hero-sec__left">
+          <div className="intro-sec">Chandan Bangalore Shankar Denanath</div>
+          <div className="edu-sec">
+            <h2 className="edu-sec__title">Education </h2>
+            <div className="">
+              <img src={IULogo} alt="" className="edu-sec__logo" />
+              <h4>
+                Indiana University Bloomington <br />
+                (Master of Science in Computer Science)
+              </h4>
+              <p>Fall 2021 - Spring 2023</p>
+            </div>
+          </div>
 
-        <div
-          className="resume-link"
-          onClick={() =>
-            window.open(
-              "https://drive.google.com/file/d/15qs_hLs00XWcHVxMLa6FUv7W241HeHCw/view?usp=sharing",
-              "_blank",
-              "noopener,noreferrer"
-            )
-          }
-        >
-          Download Resume
-          <FontAwesomeIcon icon={faDownload} />
-        </div>
-      </div>
-      <div className="i">
-        <div className="i-left">
-          <div className="i-left-wrapper">
-            <h2 className="i-intro">Hello, I'm</h2>
-            <h2 className="i-name">Chandan </h2>
-            <h2 className="i-name">Bangalore Shankar Denanth</h2>
-            <div className="a-university">
-              <img src={IULogo} alt="" className="a-university-img" />
-              <div className="a-university-texts">
-                <h4 className="a-university-title">
-                  Indiana University Bloomington <br />
-                  (Master of Science in Computer Science)
-                </h4>
-                <p className="a-university-desc">Fall 2021 - Spring 2023</p>
+          <div className="skill-sec">
+            <h2 className="skill-sec__title">Favorite Tech</h2>
+
+            <div className="skill-sec__desc">
+              <div className="skill-sec__desc__item">
+                <div>
+                  <img src={reactIcon} alt="react" className="skill-img-con" />
+                </div>
+                <div className="skill-title">React.js</div>
+              </div>
+
+              <div className="skill-sec__desc__item">
+                <div>
+                  <img src={js} alt="react" className="skill-img-con" />
+                </div>
+                <div className="skill-title">JavaScript</div>
+              </div>
+
+              <div className="skill-sec__desc__item">
+                <div>
+                  <img src={azure} alt="react" className="skill-img-con" />
+                </div>
+                <div className="skill-title">Microsoft Azure</div>
               </div>
             </div>
           </div>
         </div>
-        <div className="i-right">
-          <div className="a-left">
-            <div className="a-card">
-              <img src={Me2} alt="" className="a-img" />
-            </div>
+        <div>
+          <div className="hero-section-right">
+            <Snowfall />
+            <img src={ProfilePicture} alt="" className="a-img" />
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 
