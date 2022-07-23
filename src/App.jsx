@@ -1,12 +1,12 @@
 import HeroSection from "./pages/HeroSection";
-import SkillsSection from "./pages/SkillsSection";
 import ProjectsSection from "./pages/ProjectsSection";
+import Navbar from "./pages/Navbar";
 const App = () => {
   return (
     <div>
+      <Navbar />
       <HeroSection />
       <ProjectsSection />
-      <SkillsSection />
     </div>
   );
 };
