@@ -15,7 +15,7 @@ const HeroSection = () => {
           <div className="intro-sec">Chandan Bangalore Shankar Denanath</div>
           <div className="edu-sec">
             <h2 className="edu-sec__title">Education </h2>
-            <div className="">
+            <div>
               <img src={IULogo} alt="" className="edu-sec__logo" />
               <h4>
                 Indiana University Bloomington <br />
