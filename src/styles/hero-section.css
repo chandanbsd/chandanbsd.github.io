@@ -82,6 +82,7 @@
 
   .hero-sec__left {
     width: 100%;
+    padding-right: 0px;
   }
 
   .skill-sec__desc__item > div:nth-child(1) {
