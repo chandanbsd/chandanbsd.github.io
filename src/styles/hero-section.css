@@ -37,6 +37,7 @@
 
 .skill-sec {
   display: block;
+  text-align: center;
 }
 
 .skill-sec__title {
@@ -44,6 +45,9 @@
 }
 
 .skill-sec__desc {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -90,6 +94,10 @@
 
   .skill-title {
     width: 100px;
+  }
+
+  .skill-sec__desc {
+    width: 300px;
   }
 
   .a-img {
