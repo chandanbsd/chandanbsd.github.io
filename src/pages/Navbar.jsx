@@ -18,7 +18,7 @@ const Navbar = () => {
         className="main-nav__resume"
         onClick={() =>
           window.open(
-            "https://drive.google.com/file/d/15qs_hLs00XWcHVxMLa6FUv7W241HeHCw/view?usp=sharing",
+            "https://drive.google.com/drive/folders/12H1d2Ycd5elWiJKx7WRCwsbt-QoaN7Uf?usp=sharing",
             "_blank",
             "noopener,noreferrer"
           )
