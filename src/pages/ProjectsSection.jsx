@@ -19,7 +19,7 @@ const ProjectsSection = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Featured Projects</h1>
+        <h2>Featured Projects</h2>
       </div>
       <div className="pl-list">
         {projects.map((item) => (
