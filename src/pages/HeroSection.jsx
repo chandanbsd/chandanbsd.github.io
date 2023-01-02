@@ -2,7 +2,6 @@ import "../styles/hero-section.css";
 import ProfilePicture from "../img/me2.jpg";
 import IULogo from "../img/iulogo.svg";
 import React from "react";
-import Snowfall from "react-snowfall";
 import reactIcon from "../img/react-icon.svg";
 import js from "../img/javascript.svg";
 import azure from "../img/azure.svg";
