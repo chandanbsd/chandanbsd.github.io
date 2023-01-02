@@ -6,6 +6,8 @@ import Snowfall from "react-snowfall";
 import reactIcon from "../img/react-icon.svg";
 import js from "../img/javascript.svg";
 import azure from "../img/azure.svg";
+import PythonIMG from "../img/python.svg";
+import PostgreSQLIMG from "../img/postgresql.svg";
 
 const HeroSection = () => {
   return (
@@ -26,7 +28,7 @@ const HeroSection = () => {
           </div>
 
           <div className="skill-sec">
-            <h2 className="skill-sec__title">Favorite Tech</h2>
+            <h2 className="skill-sec__title">Skills</h2>
 
             <div className="skill-sec__desc">
               <div className="skill-sec__desc__item">
@@ -48,6 +50,22 @@ const HeroSection = () => {
                   <img src={azure} alt="react" className="skill-img-con" />
                 </div>
                 <div className="skill-title">Microsoft Azure</div>
+              </div>
+
+      
+
+              <div className="skill-sec__desc__item">
+                <div>
+                  <img src={PythonIMG} alt="python" className="skill-img-con" />
+                </div>
+                <div className="skill-title">Python</div>
+              </div>
+
+              <div className="skill-sec__desc__item">
+                <div>
+                  <img src={PostgreSQLIMG} alt="PostgreSQL" className="skill-img-con" />
+                </div>
+                <div className="skill-title">PostgreSQL</div>
               </div>
             </div>
           </div>
