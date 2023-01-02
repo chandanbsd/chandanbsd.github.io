@@ -26,7 +26,7 @@ const HeroSection = () => {
                 </h4>
                 <p>Fall 2021 - Spring 2023</p>
               </div>
-              <div style={{marginLeft: "30px"}}>
+              <div>
                 <img src={BITLogo} alt="" className="edu-sec__logo" />
                 <h4>
                   Bangalore Institute of Technology <br />
@@ -62,8 +62,6 @@ const HeroSection = () => {
                 <div className="skill-title">Microsoft Azure</div>
               </div>
 
-      
-
               <div className="skill-sec__desc__item">
                 <div>
                   <img src={PythonIMG} alt="python" className="skill-img-con" />
@@ -73,7 +71,11 @@ const HeroSection = () => {
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={PostgreSQLIMG} alt="PostgreSQL" className="skill-img-con" />
+                  <img
+                    src={PostgreSQLIMG}
+                    alt="PostgreSQL"
+                    className="skill-img-con"
+                  />
                 </div>
                 <div className="skill-title">PostgreSQL</div>
               </div>
