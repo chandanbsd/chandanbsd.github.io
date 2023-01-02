@@ -26,6 +26,7 @@ const HeroSection = () => {
                 </h4>
                 <p>Fall 2021 - Spring 2023</p>
               </div>
+              <div className="edu-sec-cushion"></div>
               <div>
                 <img src={BITLogo} alt="" className="edu-sec__logo" />
                 <h4>
