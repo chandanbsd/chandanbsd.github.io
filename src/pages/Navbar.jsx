@@ -13,19 +13,8 @@ const Navbar = () => {
       <div>
         <SocialIcon url="https://github.com/chandanbsd" target="_blank" />
       </div>
-
-      <div
-        className="main-nav__resume"
-        onClick={() =>
-          window.open(
-            "https://drive.google.com/drive/folders/12H1d2Ycd5elWiJKx7WRCwsbt-QoaN7Uf?usp=sharing",
-            "_blank",
-            "noopener,noreferrer"
-          )
-        }
-      >
-        Download Resume
-        <FontAwesomeIcon icon={faDownload} />
+      <div>
+        <SocialIcon url="https://twitter.com/chandanbsd" target="_blank" />
       </div>
     </div>
   );
