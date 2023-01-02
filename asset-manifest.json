@@ -1,27 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a60c505.chunk.css",
-    "main.js": "/static/js/main.cdb6b36c.chunk.js",
-    "main.js.map": "/static/js/main.cdb6b36c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.26096b02.js",
-    "runtime-main.js.map": "/static/js/runtime-main.26096b02.js.map",
-    "static/js/2.ea9fe70a.chunk.js": "/static/js/2.ea9fe70a.chunk.js",
-    "static/js/2.ea9fe70a.chunk.js.map": "/static/js/2.ea9fe70a.chunk.js.map",
+    "main.css": "/static/css/main.3315c358.css",
+    "main.js": "/static/js/main.37c5950e.js",
+    "static/media/me2.jpg": "/static/media/me2.bac1e4eb4f9d309ac5b2.jpg",
+    "static/media/bitlogo.png": "/static/media/bitlogo.f3021ad0e582c8ffa595.png",
+    "static/media/postgresql.svg": "/static/media/postgresql.29aef66790dafa021ec4c36bbd59e370.svg",
+    "static/media/javascript.svg": "/static/media/javascript.f719efab5b799ddc35b5055935a3cedd.svg",
+    "static/media/python.svg": "/static/media/python.ab5b883c7057f0d1476bf89b193c1331.svg",
     "index.html": "/index.html",
-    "static/css/main.3a60c505.chunk.css.map": "/static/css/main.3a60c505.chunk.css.map",
-    "static/js/2.ea9fe70a.chunk.js.LICENSE.txt": "/static/js/2.ea9fe70a.chunk.js.LICENSE.txt",
-    "static/media/azure.38ae96ef.svg": "/static/media/azure.38ae96ef.svg",
-    "static/media/iulogo.06aaf914.svg": "/static/media/iulogo.06aaf914.svg",
-    "static/media/javascript.f719efab.svg": "/static/media/javascript.f719efab.svg",
-    "static/media/me2.bac1e4eb.jpg": "/static/media/me2.bac1e4eb.jpg",
-    "static/media/postgresql.29aef667.svg": "/static/media/postgresql.29aef667.svg",
-    "static/media/python.90a37ab8.svg": "/static/media/python.90a37ab8.svg",
-    "static/media/react-icon.928f956d.svg": "/static/media/react-icon.928f956d.svg"
+    "static/media/react-icon.svg": "/static/media/react-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "static/media/iulogo.svg": "/static/media/iulogo.06aaf914795b8b895b7264321f8af41c.svg",
+    "static/media/azure.svg": "/static/media/azure.38ae96efdd598ed270975e3b52c4fb4d.svg",
+    "main.3315c358.css.map": "/static/css/main.3315c358.css.map",
+    "main.37c5950e.js.map": "/static/js/main.37c5950e.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.26096b02.js",
-    "static/js/2.ea9fe70a.chunk.js",
-    "static/css/main.3a60c505.chunk.css",
-    "static/js/main.cdb6b36c.chunk.js"
+    "static/css/main.3315c358.css",
+    "static/js/main.37c5950e.js"
   ]
 }
