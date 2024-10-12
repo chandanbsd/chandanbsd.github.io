@@ -10,4 +10,11 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'ClientApp';
+  public theme = 'nord';
+
+  public switchTheme() {
+    this.theme = (this.theme == 'nord') ? 'sunset' : 'nord';
+    console.log(this.theme)
+    document.getElementsByTagName("html")[0]?.setAttribute('data-theme', this.theme);
+  }
 }
