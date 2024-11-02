@@ -2,11 +2,12 @@ import "../styles/hero-section.css";
 import ProfilePicture from "../img/me2.jpg";
 import IULogo from "../img/iulogo.svg";
 import React from "react";
-import reactIcon from "../img/react-icon.svg";
-import js from "../img/javascript.svg";
-import azure from "../img/azure.svg";
-import PythonIMG from "../img/python.svg";
-import PostgreSQLIMG from "../img/postgresql.svg";
+import TypeScript from "../img/typescript.svg";
+import Angular from "../img/angular.svg";
+import dotnet from "../img/dotnet.svg";
+import AzureCosmosDB from "../img/azure-cosmos-db.svg";
+import Azure from "../img/azure.svg";
+import AzureSQLServer from "../img/azure-sql-server.svg";
 import BITLogo from "../img/bitlogo.png";
 
 const HeroSection = () => {
@@ -19,7 +20,7 @@ const HeroSection = () => {
             <h2 className="edu-sec__title">Education </h2>
             <div className="edu-section-flex">
               <div>
-                <img src={IULogo} alt="" className="edu-sec__logo" />
+                <img src={IULogo} alt="indiana University Bloomington Logo" className="edu-sec__logo" />
                 <h4>
                   Indiana University Bloomington <br />
                   (Master of Science in Computer Science)
@@ -28,7 +29,7 @@ const HeroSection = () => {
               </div>
               <div className="edu-sec-cushion"></div>
               <div>
-                <img src={BITLogo} alt="" className="edu-sec__logo" />
+                <img src={BITLogo} alt="Bangalore Institute of Technology Logo" className="edu-sec__logo" />
                 <h4>
                   Bangalore Institute of Technology <br />
                   (Bachelor of Engineering in Computer Science)
@@ -39,43 +40,40 @@ const HeroSection = () => {
           </div>
 
           <div className="skill-sec">
-            <h2 className="skill-sec__title">Skills</h2>
+            <h2 className="skill-sec__title">Key Skills</h2>
 
             <div className="skill-sec__desc">
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={reactIcon} alt="react" className="skill-img-con" />
-                </div>
-                <div className="skill-title">TypeScript</div>
-              </div>
-
-              <div className="skill-sec__desc__item">
-                <div>
-                  <img src={js} alt="react" className="skill-img-con" />
+                  <img src={Angular} alt="angular logo" className="skill-img-con" />
                 </div>
                 <div className="skill-title">Angular</div>
               </div>
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={azure} alt="react" className="skill-img-con" />
+                  <img src={TypeScript} alt="typescript logo" className="skill-img-con" />
                 </div>
-                <div className="skill-title">ASP.NET Core</div>
+                <div className="skill-title">TypeScript</div>
               </div>
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={PythonIMG} alt="python" className="skill-img-con" />
+                  <img src={dotnet} alt="dotnet logo" className="skill-img-con" />
                 </div>
-                <div className="skill-title">Entity Framework</div>
+                <div className="skill-title">.NET</div>
               </div>
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img
-                    src={PostgreSQLIMG}
-                    alt="PostgreSQL"
-                    className="skill-img-con"
+                  <img src={dotnet} alt="python" className="skill-img-con" />
+                </div>
+                <div className="skill-title">EF Core</div>
+              </div>
+
+              <div className="skill-sec__desc__item">
+                <div>
+                  <img src={TypeScript} alt="csharp logo" className="skill-img-con"
                   />
                 </div>
                 <div className="skill-title">C#</div>
@@ -83,13 +81,26 @@ const HeroSection = () => {
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img
-                    src={PostgreSQLIMG}
-                    alt="PostgreSQL"
-                    className="skill-img-con"
+                  <img src={Azure} alt="Azure logo" className="skill-img-con"
                   />
                 </div>
-                <div className="skill-title">Azure SQL Server</div>
+                <div className="skill-title">Azure</div>
+              </div>
+
+              <div className="skill-sec__desc__item">
+                <div>
+                  <img src={AzureSQLServer} alt="Azure SQL server logo" className="skill-img-con"
+                  />
+                </div>
+                <div className="skill-title">SQL Server</div>
+              </div>
+
+              <div className="skill-sec__desc__item">
+                <div>
+                  <img src={AzureCosmosDB} alt="Azure Cosmos DB LOGO" className="skill-img-con"
+                  />
+                </div>
+                <div className="skill-title">Cosmos DB</div>
               </div>
             </div>
           </div>
@@ -101,6 +112,7 @@ const HeroSection = () => {
         </div>
       </div>
     </div>
+
   );
 };
 
