@@ -46,28 +46,28 @@ const HeroSection = () => {
                 <div>
                   <img src={reactIcon} alt="react" className="skill-img-con" />
                 </div>
-                <div className="skill-title">React.js</div>
+                <div className="skill-title">TypeScript</div>
               </div>
 
               <div className="skill-sec__desc__item">
                 <div>
                   <img src={js} alt="react" className="skill-img-con" />
                 </div>
-                <div className="skill-title">JavaScript</div>
+                <div className="skill-title">Angular</div>
               </div>
 
               <div className="skill-sec__desc__item">
                 <div>
                   <img src={azure} alt="react" className="skill-img-con" />
                 </div>
-                <div className="skill-title">Microsoft Azure</div>
+                <div className="skill-title">ASP.NET Core</div>
               </div>
 
               <div className="skill-sec__desc__item">
                 <div>
                   <img src={PythonIMG} alt="python" className="skill-img-con" />
                 </div>
-                <div className="skill-title">Python</div>
+                <div className="skill-title">Entity Framework</div>
               </div>
 
               <div className="skill-sec__desc__item">
@@ -78,7 +78,18 @@ const HeroSection = () => {
                     className="skill-img-con"
                   />
                 </div>
-                <div className="skill-title">PostgreSQL</div>
+                <div className="skill-title">C#</div>
+              </div>
+
+              <div className="skill-sec__desc__item">
+                <div>
+                  <img
+                    src={PostgreSQLIMG}
+                    alt="PostgreSQL"
+                    className="skill-img-con"
+                  />
+                </div>
+                <div className="skill-title">Azure SQL Server</div>
               </div>
             </div>
           </div>

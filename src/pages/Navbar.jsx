@@ -1,7 +1,5 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import "../styles/navbar.css";
 
 const Navbar = () => {
