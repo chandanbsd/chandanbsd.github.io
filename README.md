@@ -13,10 +13,6 @@
 
 [chandanbsd.com](https://www.chandanbsd.com)
 
-[chandanbsd.tech](https://www.chandanbsd.tech)
-
-[chandanbsd.github.io](https://chandanbsd.github.io)
-
 ## Instructions to build website locally
 
 Feel free to use the source code as per your needs.
