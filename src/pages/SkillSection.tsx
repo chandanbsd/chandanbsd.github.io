@@ -23,9 +23,9 @@ interface skillKey {
     azureCosmosDB: skillItem,
 }
 
-export const SkillSection = () => {
+const SkillSection = () => {
 
-    let skillObj: skillKey = {
+    const skillObj: skillKey = {
         angular: {
             imageSrc: angularImg.src,
             viewValue: "Angular",
@@ -75,20 +75,23 @@ export const SkillSection = () => {
                     Key Skills
                 </h3>
                 <div className="flex flex-col items-center justify-center md:flex-row md:items-stretch md:justify-evenly">
-                    {Object.entries(skillObj).map(([key, skill], i) => (<div className="carousel-item">
-                        <div key={i} className={`card w-25 h-25 mb-5 md:mb-0 md:mr-2 bg-[${skill.bgColor}] md:transition-transform duration-300 hover:scale-105 hover:shadow-sm`}>
-                            <figure className="p-5 pb-2">
-                                <img style={{ width: '110px', height: '110px' }} src={skill.imageSrc} alt={`${skill.viewValue} logo`} />
-                            </figure>
-                            <div className="card-body text-center pt-0 pb-2">
-                                <h2 className="card-title justify-center">
-                                    {skill.viewValue}
-                                </h2>
+                    {Object.entries(skillObj).map(([key, skill]) => (
+                        <div key={key} className="carousel-item">
+                            <div className={`card w-25 h-25 mb-5 md:mb-0 md:mr-2 bg-[${skill.bgColor}] md:transition-transform duration-300 hover:scale-105 hover:shadow-sm`}>
+                                <figure className="p-5 pb-2">
+                                    <img style={{ width: '110px', height: '110px' }} src={skill.imageSrc} alt={`${skill.viewValue} logo`} />
+                                </figure>
+                                <div className="card-body text-center pt-0 pb-2">
+                                    <h2 className="card-title justify-center">
+                                        {skill.viewValue}
+                                    </h2>
+                                </div>
                             </div>
-                        </div>
-                    </div>))}
+                        </div>))}
                 </div>
             </div>
         </div >
     );
 };
+
+export default SkillSection;

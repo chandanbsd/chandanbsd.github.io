@@ -1,8 +1,8 @@
 import EducationSection from "./pages/EducationSection";
-import ProjectsSection from "./pages/ProjectsSection";
+import HeroSection from "./pages/HeroSection";
 import Navbar from "./pages/Navbar";
-import { SkillSection } from "./pages/SkillSection";
-import { HeroSection } from "./pages/HeroSection";
+import ProjectsSection from "./pages/ProjectsSection";
+import SkillSection from "./pages/SkillSection";
 
 const App = () => {
   return (
