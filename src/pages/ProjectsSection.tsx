@@ -1,6 +1,21 @@
-import { projects } from "../data";
-const ProjectsSection = () => (
-  <div>
+const ProjectsSection = () => {
+
+  const projects = [
+    {
+      id: 1,
+      link: "https://www.youtube.com/embed/hOGkdoRL1oA",
+    },
+    {
+      id: 2,
+      link: "https://www.youtube.com/embed/TfdJhcw-w5w",
+    },
+    {
+      id: 3,
+      link: "https://www.youtube.com/embed/GpRaH7vO1tE",
+    },
+  ];
+
+  return (<div>
     <div>
       <h3 className="text-4xl font-semibold text-center leading-tight p-4">
         Projects
@@ -23,6 +38,7 @@ const ProjectsSection = () => (
       ))}
     </div>
   </div>
-);
+  );
+};
 
 export default ProjectsSection;
