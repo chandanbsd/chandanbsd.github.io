@@ -11,7 +11,7 @@ const config: Config = {
   plugins: [daisyui],
   // Optional: Configure DaisyUI settings
   daisyui: {
-    themes: ["light", "dark"],
+    themes: ["light", "forest"],
     darkTheme: "dark",
     base: true,
     styled: true,

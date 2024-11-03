@@ -1,33 +1,28 @@
-import "../styles/projects-section.css";
 import { projects } from "../data";
-import ResponsiveEmbed from "react-responsive-embed";
-
-const ProjectCard = ({ link }) => {
-  return (
-    <div className="p">
-      <div className="p-browser">
-        <div className="p-circle"></div>
-        <div className="p-circle"></div>
-        <div className="p-circle"></div>
-      </div>
-      {/* <ResponsiveEmbed src={link} allowFullScreen /> */}
+const ProjectsSection = () => (
+  <div>
+    <div>
+      <h3 className="text-4xl font-semibold text-center leading-tight p-4">
+        Projects
+      </h3>
     </div>
-  );
-};
-
-const ProjectsSection = () => {
-  return (
-    <div className="pl">
-      <div className="pl-texts">
-        <h2>Featured Projects</h2>
-      </div>
-      <div className="pl-list">
-        {projects.map((item) => (
-          <ProjectCard key={item.id} link={item.link} />
-        ))}
-      </div>
+    <div>
+      {projects.map((item, id) => (
+        <div className="max-w-4xl mx-auto p-4" key={id}>
+          <div className="relative pb-[56.25%] overflow-hidden rounded-lg shadow-2xl border border-gray-300">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src={item.link}
+              title="YouTube video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-40"></div>
+          </div>
+        </div>
+      ))}
     </div>
-  );
-};
+  </div>
+);
 
 export default ProjectsSection;
