@@ -1,5 +1,5 @@
 import IULogo from "../../public/iulogo.svg";
-
+import Image from "next/image";
 import BITLogo from "../../public/bitlogo.png";
 
 const EducationSection = () => (
@@ -9,8 +9,8 @@ const EducationSection = () => (
     </h3>
     <div className="flex flex-col items-center justify-center md:flex-row md:items-stretch md:justify-evenly">
       <div className="card glass w-80 h-80 mb-5 md:mb-0 transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-        <figure className="pt-1">
-          <img src={IULogo.src} alt="Indiana University Bloomington logo" className="w-full h-full object-contain" />
+        <figure className="pt-2">
+          <Image src={IULogo.src} width={200} height={200} alt="Indiana University Bloomington logo" className="w-full h-full object-contain" />
         </figure>
         <div className="card-body  text-center">
           <div className="card-title justify-center">
@@ -20,8 +20,8 @@ const EducationSection = () => (
         </div>
       </div>
       <div className="card glass w-80 h-80 transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-        <figure >
-          <img src={BITLogo.src} alt="Bangalore Institute of Technology logo" className="w-full h-full object-contain" />
+        <figure className="pt-2">
+          <Image src={BITLogo.src} width={200} height={200} alt="Bangalore Institute of Technology logo" className="w-full h-full object-contain" />
         </figure>
         <div className="card-body text-center">
           <h2 className="card-title justify-center">
