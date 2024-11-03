@@ -1,14 +1,15 @@
 import "../styles/hero-section.css";
-import ProfilePicture from "../img/me2.jpg";
-import IULogo from "../img/iulogo.svg";
+import ProfilePicture from "../../public/me2.jpg";
+import IULogo from "../../public/iulogo.svg";
 import React from "react";
-import TypeScript from "../img/typescript.svg";
-import Angular from "../img/angular.svg";
-import dotnet from "../img/dotnet.svg";
-import AzureCosmosDB from "../img/azure-cosmos-db.svg";
-import Azure from "../img/azure.svg";
-import AzureSQLServer from "../img/azure-sql-server.svg";
-import BITLogo from "../img/bitlogo.png";
+import TypeScript from "../../public/typescript.svg";
+import Angular from "../../public/angular.svg";
+import dotnet from "../../public/dotnet.svg";
+import AzureCosmosDB from "../../public/azure-cosmos-db.svg";
+import Azure from "../../public/azure.svg";
+import AzureSQLServer from "../../public/azure-sql-server.svg";
+import BITLogo from "../../public/bitlogo.png";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
@@ -20,7 +21,7 @@ const HeroSection = () => {
             <h2 className="edu-sec__title">Education </h2>
             <div className="edu-section-flex">
               <div>
-                <img src={IULogo} alt="indiana University Bloomington Logo" className="edu-sec__logo" />
+                <img src={IULogo.src} alt="indiana University Bloomington Logo" className="edu-sec__logo" />
                 <h4>
                   Indiana University Bloomington <br />
                   (Master of Science in Computer Science)
@@ -29,7 +30,7 @@ const HeroSection = () => {
               </div>
               <div className="edu-sec-cushion"></div>
               <div>
-                <img src={BITLogo} alt="Bangalore Institute of Technology Logo" className="edu-sec__logo" />
+                <img src={BITLogo.src} alt="Bangalore Institute of Technology Logo" className="edu-sec__logo" />
                 <h4>
                   Bangalore Institute of Technology <br />
                   (Bachelor of Engineering in Computer Science)
@@ -45,35 +46,35 @@ const HeroSection = () => {
             <div className="skill-sec__desc">
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={Angular} alt="angular logo" className="skill-img-con" />
+                  <img src={Angular.src} alt="angular logo" className="skill-img-con" />
                 </div>
                 <div className="skill-title">Angular</div>
               </div>
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={TypeScript} alt="typescript logo" className="skill-img-con" />
+                  <img src={TypeScript.src} alt="typescript logo" className="skill-img-con" />
                 </div>
                 <div className="skill-title">TypeScript</div>
               </div>
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={dotnet} alt="dotnet logo" className="skill-img-con" />
+                  <img src={dotnet.src} alt="dotnet logo" className="skill-img-con" />
                 </div>
                 <div className="skill-title">.NET</div>
               </div>
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={dotnet} alt="python" className="skill-img-con" />
+                  <img src={dotnet.src} alt="python" className="skill-img-con" />
                 </div>
                 <div className="skill-title">EF Core</div>
               </div>
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={TypeScript} alt="csharp logo" className="skill-img-con"
+                  <img src={TypeScript.src} alt="csharp logo" className="skill-img-con"
                   />
                 </div>
                 <div className="skill-title">C#</div>
@@ -81,7 +82,7 @@ const HeroSection = () => {
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={Azure} alt="Azure logo" className="skill-img-con"
+                  <img src={Azure.src} alt="Azure logo" className="skill-img-con"
                   />
                 </div>
                 <div className="skill-title">Azure</div>
@@ -89,7 +90,7 @@ const HeroSection = () => {
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={AzureSQLServer} alt="Azure SQL server logo" className="skill-img-con"
+                  <img src={AzureSQLServer.src} alt="Azure SQL server logo" className="skill-img-con"
                   />
                 </div>
                 <div className="skill-title">SQL Server</div>
@@ -97,7 +98,7 @@ const HeroSection = () => {
 
               <div className="skill-sec__desc__item">
                 <div>
-                  <img src={AzureCosmosDB} alt="Azure Cosmos DB LOGO" className="skill-img-con"
+                  <img src={AzureCosmosDB.src} alt="Azure Cosmos DB LOGO" className="skill-img-con"
                   />
                 </div>
                 <div className="skill-title">Cosmos DB</div>
@@ -107,7 +108,7 @@ const HeroSection = () => {
         </div>
         <div>
           <div className="hero-section-right">
-            <img src={ProfilePicture} alt="" className="a-img" />
+            <img src={ProfilePicture.src} alt="" className="a-img" />
           </div>
         </div>
       </div>
