@@ -10,7 +10,7 @@ const ProjectCard = ({ link }) => {
         <div className="p-circle"></div>
         <div className="p-circle"></div>
       </div>
-      <ResponsiveEmbed src={link} allowFullScreen />
+      {/* <ResponsiveEmbed src={link} allowFullScreen /> */}
     </div>
   );
 };
