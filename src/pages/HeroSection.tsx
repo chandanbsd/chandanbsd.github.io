@@ -10,7 +10,7 @@ const HeroSection = () => (
                 height={800}
                 src={ProfilePicture.src}
                 alt="Author's profile picture"
-                className="max-w-sm rounded-lg shadow-2xl transition-transform duration-300 hover:scale-105 hover:shadow-2xl" />
+                className="max-w-xs rounded-lg shadow-2xl transition-transform duration-300 hover:scale-105 hover:shadow-2xl sm:max-w-sm md:max-w-md" />
             <div className="text-center">
                 <h1 className="text-5xl">Chandan Bangalore Shankar Denanath</h1>
                 <p className="py-6">Yep, that&apos;s a huge name</p>
