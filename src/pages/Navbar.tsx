@@ -1,7 +1,7 @@
 import { SocialIcon } from "react-social-icons";
 
 const Navbar = () => (
-  <div className="navbar glass bg-opacity-20 sticky p-3 top-0 bg-teal-800 text-neutral-content z-10">
+  <div className="navbar glass bg-opacity-20 sticky p-3 top-0 bg-teal-800 text-neutral-content z-50">
     <div className="navbar-start">
       <a className="btn btn-ghost hidden md:text-l">
         Chandan Bangalore Shankar Denanath

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import './globals.css'
 
 export const metadata: Metadata = {
-    title: 'www.chandanbsd.com',
+    title: 'chandanbsd.com',
     description: 'Chandan Bangalore Shankar Denanath\'s Personal Website',
 }
 
