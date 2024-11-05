@@ -9,7 +9,7 @@ const Navbar = () => (
     </div>
     <div className="navbar-center opacity-100">
       <div className="btn btn-ghost mr-5">
-        <SocialIcon url="https://linkedin.com/chandanbsd" target="_blank" />
+        <SocialIcon url="https://linkedin.com/in/chandanbsd" target="_blank" />
       </div>
       <div className="btn btn-ghost mr-5">
         <SocialIcon url="https://github.com/chandanbsd" target="_blank" />
