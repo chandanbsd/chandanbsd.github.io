@@ -6,7 +6,7 @@ import SkillSection from "./pages/SkillSection";
 
 const App = () => {
   return (
-    <div className="max-w-fit">
+    <div className="max-w-fit lg:max-w-max">
       <Navbar />
       <HeroSection />
       <EducationSection />
