@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FlowbiteService } from './services/flowbite.service';
+import { NgOptimizedImage } from '@angular/common';
+import { HeroComponent } from './hero/hero.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, NgOptimizedImage, HeroComponent, HeroComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
