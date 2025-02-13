@@ -4,6 +4,7 @@ import { FlowbiteService } from './services/flowbite.service';
 import { NgOptimizedImage } from '@angular/common';
 import { HeroComponent } from './hero/hero.component';
 import { SkillsComponent } from './skills/skills.component';
+import { CertificationsComponent } from './certifications/certifications.component';
 
 @Component({
   selector: 'app-root',
@@ -11,9 +12,8 @@ import { SkillsComponent } from './skills/skills.component';
     RouterOutlet,
     NgOptimizedImage,
     HeroComponent,
-    HeroComponent,
     SkillsComponent,
-    SkillsComponent,
+    CertificationsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
