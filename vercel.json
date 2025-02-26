@@ -9,7 +9,7 @@
     ],
     "functions": {
         "api/index.js": {
-            "includeFiles": "dist/chandanbsd/browser/**"
+            "includeFiles": "dist/chandanbsd/**"
         }
     }
 }
