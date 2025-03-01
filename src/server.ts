@@ -31,8 +31,8 @@ app.get(
   '**',
   express.static(browserDistFolder, {
     maxAge: '1y',
-    index: 'index.html',
-  })
+    index: 'index.html'
+  }),
 );
 
 /**
@@ -63,3 +63,5 @@ if (isMainModule(import.meta.url)) {
     console.log(`Node Express server listening on http://localhost:${port}`);
   });
 }
+
+export default app;
